@@ -5,7 +5,7 @@ If tests OK - commit accepted. If not - commit rejected
 
 # How to install
 
-1. Put ```pre-commit``` to hooks folder in project: ```mv pre-commit .git/hooks/```. 
+1. Put ```pre-commit``` to hooks folder in project. Command: ```mv pre-commit .git/hooks/```. 
 2. Give permissions to execute. Command: ```chmod +x .git/hooks/pre-commit```(Alternatively add ```sudo``` before command)
 
 # Launch examples
