@@ -5,10 +5,8 @@ If tests OK - commit accepted. If not - commit rejected
 
 # How to install
 
-Put ```pre-commit``` to ```<ProjectFolder>/.git/hooks/```.
-
-If you want launch it on Linux: \
-Give permissions to exeucute. Command: ```chmod +x pre-commit```(Alternatively add ```sudo``` before command)
+1. Put ```pre-commit``` to hooks folder in project: ```mv pre-commit .git/hooks/```. 
+2. Give permissions to execute. Command: ```chmod +x .git/hooks/pre-commit```(Alternatively add ```sudo``` before command)
 
 # Launch examples
 Launch example on Linux:
@@ -23,7 +21,7 @@ OK
 [master e793b02] 'test'
  1 files changed, 1 insertion(+), 1 deletions(-)
 ```
-Launching on Windows is same
+
 
 # Project Goals
 
